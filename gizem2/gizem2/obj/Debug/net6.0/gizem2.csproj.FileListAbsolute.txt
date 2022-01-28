@@ -1,0 +1,15 @@
+C:\WEB\gizem2\gizem2\bin\Debug\net6.0\gizem2.exe
+C:\WEB\gizem2\gizem2\bin\Debug\net6.0\gizem2.deps.json
+C:\WEB\gizem2\gizem2\bin\Debug\net6.0\gizem2.runtimeconfig.json
+C:\WEB\gizem2\gizem2\bin\Debug\net6.0\gizem2.dll
+C:\WEB\gizem2\gizem2\bin\Debug\net6.0\ref\gizem2.dll
+C:\WEB\gizem2\gizem2\bin\Debug\net6.0\gizem2.pdb
+C:\WEB\gizem2\gizem2\obj\Debug\net6.0\gizem2.csproj.AssemblyReference.cache
+C:\WEB\gizem2\gizem2\obj\Debug\net6.0\gizem2.GeneratedMSBuildEditorConfig.editorconfig
+C:\WEB\gizem2\gizem2\obj\Debug\net6.0\gizem2.AssemblyInfoInputs.cache
+C:\WEB\gizem2\gizem2\obj\Debug\net6.0\gizem2.AssemblyInfo.cs
+C:\WEB\gizem2\gizem2\obj\Debug\net6.0\gizem2.csproj.CoreCompileInputs.cache
+C:\WEB\gizem2\gizem2\obj\Debug\net6.0\gizem2.dll
+C:\WEB\gizem2\gizem2\obj\Debug\net6.0\ref\gizem2.dll
+C:\WEB\gizem2\gizem2\obj\Debug\net6.0\gizem2.pdb
+C:\WEB\gizem2\gizem2\obj\Debug\net6.0\gizem2.genruntimeconfig.cache
