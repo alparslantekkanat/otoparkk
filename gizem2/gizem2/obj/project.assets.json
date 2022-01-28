@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\WEB\\gizem2\\gizem2\\gizem2.csproj",
+      "projectUniqueName": "C:\\Users\\Alparslan\\Documents\\GitHub\\otoparkk\\gizem2\\gizem2\\gizem2.csproj",
       "projectName": "gizem2",
-      "projectPath": "C:\\WEB\\gizem2\\gizem2\\gizem2.csproj",
+      "projectPath": "C:\\Users\\Alparslan\\Documents\\GitHub\\otoparkk\\gizem2\\gizem2\\gizem2.csproj",
       "packagesPath": "C:\\Users\\Alparslan\\.nuget\\packages\\",
-      "outputPath": "C:\\WEB\\gizem2\\gizem2\\obj\\",
+      "outputPath": "C:\\Users\\Alparslan\\Documents\\GitHub\\otoparkk\\gizem2\\gizem2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Alparslan\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -11,6 +11,7 @@ class Program
         bool result = true;
         double odenecekTutar = 0;
         double kalinanSure = 0;
+        
 
 
 
@@ -128,24 +129,26 @@ class Program
             {
                 for (double i = 24.1; i < kalinanSure; i += 0.1)
                 {
+                    double gun = kalinanSure / 24;
+                    double gunTamSayi = Math.Truncate(gun);
                     if (i == 24.1)
                     {
                      
                             if (aracTipi == 1)
                             {
-                                odenecekTutar = 55;
+                                odenecekTutar = (gunTamSayi * 20)+ 55;
                             }
                             else if (aracTipi == 2)
                             {
-                                odenecekTutar = 30;
+                                odenecekTutar = (gunTamSayi * 10)+30;
                             }
                             else if (aracTipi == 3)
                             {
-                                odenecekTutar = 70;
+                                odenecekTutar =(gunTamSayi * 25)+70;
                             }
                             else if (aracTipi == 4)
                             {
-                                odenecekTutar = 155;
+                                odenecekTutar =(gunTamSayi * 55)+155;
                             }
                         
                     }
@@ -156,8 +159,9 @@ class Program
 
         }
 
-        Console.WriteLine("Ödenecek Tutar : {0} TL", odenecekTutar);
+        Console.WriteLine("Ödenecek Tutar : {0} TL", odenecekTutar );
         
+
         
 
 
