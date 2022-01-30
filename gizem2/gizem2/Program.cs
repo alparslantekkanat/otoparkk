@@ -47,6 +47,11 @@ class Program
                         {
                             odenecekTutar = 15;
                         }
+                        else
+                        {
+                            continue;
+                        }
+
                     }
                 }
             }
@@ -71,6 +76,10 @@ class Program
                         else if (aracTipi == 4)
                         {
                             odenecekTutar = 30;
+                        }
+                        else
+                        {
+                            continue;
                         }
                     }
                 }
@@ -97,6 +106,10 @@ class Program
                         {
                             odenecekTutar = 60;
                         }
+                        else
+                        {
+                            continue;
+                        }
                     }
                 }
             }
@@ -122,6 +135,10 @@ class Program
                         {
                             odenecekTutar = 100;
                         }
+                        else
+                        {
+                            continue;
+                        }
                     }
                 }
             }
@@ -130,26 +147,30 @@ class Program
                 for (double i = 24.1; i < kalinanSure; i += 0.1)
                 {
                     double gun = kalinanSure / 24;
-                    double gunTamSayi = Math.Truncate(gun);
+                    int gunInt = (int)gun;
                     if (i == 24.1)
                     {
                      
                             if (aracTipi == 1)
                             {
-                                odenecekTutar = (gunTamSayi * 20)+ 55;
+                                odenecekTutar = (gunInt * 20)+ 55;
                             }
                             else if (aracTipi == 2)
                             {
-                                odenecekTutar = (gunTamSayi * 10)+30;
+                                odenecekTutar = (gunInt * 10)+30;
                             }
                             else if (aracTipi == 3)
                             {
-                                odenecekTutar =(gunTamSayi * 25)+70;
+                                odenecekTutar =(gunInt * 25)+70;
                             }
                             else if (aracTipi == 4)
                             {
-                                odenecekTutar =(gunTamSayi * 55)+155;
+                                odenecekTutar =(gunInt * 55)+155;
                             }
+                        else
+                        {
+                            continue;
+                        }
                         
                     }
                 }
